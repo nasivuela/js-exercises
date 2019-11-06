@@ -38,7 +38,6 @@ function longestSubsequence(strA, strB) {
       matches.push([firstInd, 1, letter]);
     }
   }
-  console.log(counter);
 
   return counter;
 }
